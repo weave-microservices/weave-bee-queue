@@ -1,6 +1,6 @@
 {
   "name": "weave-bee-queue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Weave bee queue service mixin.",
   "main": "src/index.js",
   "scripts": {
@@ -8,12 +8,15 @@
   },
   "author": "Kevin Ries <kevin@fachw3rk.de>",
   "license": "MIT",
+  "peerDependencies": {
+    "@weave-js/core": "0.7.0-rc.8"
+  },
   "dependencies": {
     "bee-queue": "^1.2.2",
-    "eslint": "^4.19.1",
-    "eslint-config-fw": "^1.0.1"
+    "eslint": "^6.7.1",
+    "eslint-config-fw": "^1.0.3"
   },
   "devDependencies": {
-    "weave-core": "^0.3.0-alpha13"
+    "@weave-js/core": "^0.7.0-rc.8"
   }
 }
